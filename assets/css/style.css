@@ -49,10 +49,18 @@ h3::after{
 }
 h2{
     color: var(--title-color);
-    font-size: 3.5rem;
+    font-size: 3.4rem;
     font-weight: 700;
     line-height: 4.15rem;
     font-family: var(--roboto-font);
+}
+p{
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--para-color);
+    margin: 1rem 0rem;
 }
 
 .d-flex{
@@ -194,3 +202,56 @@ header{
     color: #000;
 }
 /* header code end  */
+
+/* about code start  */
+.about{
+    margin: 5rem 0rem;
+}
+.about .about-inner .about-image{
+    flex: 1;
+}
+.about .about-inner .about-image img{
+    border-radius: 1rem;
+}
+.about .about-inner .about-content{
+    padding-left: 2rem;
+    flex: 2;
+}
+.about .about-inner .about-content h2{
+    margin: 1rem 0;
+}
+.about .about-inner .about-content .about-service{
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.about .about-inner .about-content .about-service .service-item{
+    background: #EFF5F9;
+    border-radius: 50%;
+    margin-right: 0rem;
+    min-width: 10rem;
+    min-height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about .about-inner .about-content .about-service .service-item i{
+    font-size: 3rem;
+    color: var(--brand-color);
+    text-align: center;
+    display: block;
+}
+.about .about-inner .about-content .about-service .service-item h4{
+    font-size: 0.9rem;
+    color: var(--title-color);
+    text-align: center;
+    margin-top: 1rem;
+}
+.about .about-inner .about-content .about-service .service-item h4 span{
+    color: var(--brand-color);
+    text-align: center;
+    display: block;
+}
+/* about code end  */
