@@ -1,1 +1,1 @@
-# Medinova
+# Medinova-hospital-template
