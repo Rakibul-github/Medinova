@@ -2,9 +2,10 @@
 :root{
     --poppins-font: 'Poppins', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
-    --bg-color: #13C5DD;
-    --h2-color: #1D2A4D;
-    --h1-color: #fff;
+    --brand-color: #13C5DD;
+    --title-color: #1D2A4D;
+    --para-color: #848E9F;
+    --white-color: #fff;
     --top-nav-color: #848E9F;
 }
 *{
@@ -27,6 +28,33 @@ img{
     display: block;
     object-fit: cover;
 }
+h3{
+    color: var(--brand-color);
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: var(--roboto-font);
+    letter-spacing: 1.5;
+    position: relative;
+    display: inline-block;
+}
+h3::after{
+    left: 0;
+    bottom: -5px;
+    content: '';
+    position: absolute;
+    background: var(--top-nav-color);
+    width: 100%;
+    height: 5px;
+}
+h2{
+    color: var(--title-color);
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.15rem;
+    font-family: var(--roboto-font);
+}
+
 .d-flex{
     display: flex;
 }
@@ -37,6 +65,9 @@ img{
 }
 /* ======common code end======  */
 /* top nav code start  */
+.top-nav{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 .top-nav-inner{
     justify-content: space-between;
     align-items: center;
@@ -48,7 +79,7 @@ img{
     transition: .5s all;
 }
 .top-nav-inner a:hover{
-    color: var(--bg-color);
+    color: var(--brand-color);
 }
 
 .top-nav-inner .info a:last-child ::before{
@@ -62,3 +93,104 @@ img{
     font-size: 1.2rem;
 }
 /* top nav code end  */
+
+/* nav code start  */
+nav .nav-inner{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-inner .brand-logo a{
+    font-size: 2.5rem;
+    font-family: var(--poppins-font);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--brand-color);
+    letter-spacing: 1.5;
+}
+.nav-inner .nav-links ul{
+    justify-content: center;
+    align-items: center;
+}
+.nav-inner .nav-links ul li{
+    margin-left: 1.5rem;
+}
+.nav-inner .nav-links ul li a.active{
+    color: var(--brand-color);
+}
+.nav-inner .nav-links ul li a{
+    font-size: 1.1rem;
+    font-family: var(--poppins-font);
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--title-color);
+    padding: 1.7rem 0.3rem;
+    text-align: center;
+    transition: 0.5s all;
+    position: relative;
+}
+.nav-inner .nav-links ul li a:hover{
+    color: var(--brand-color);
+}
+.nav-inner .nav-links ul li a::after{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 5px;
+    background-color: var(--brand-color);
+    bottom: 0;
+    left: 0;
+    transition: .5s all;
+    transform: scale(1);
+}
+.nav-inner .nav-links ul li a:hover:after{
+    width: 100%;
+}
+/* nav code end  */
+/* header code start  */
+header{
+    background: url(../images/hero.jpg);
+    background-size: cover;
+}
+ .header-inner .header-content{
+    padding: 5rem 0rem;
+    width: 70%;
+}
+.header-inner .header-content h1{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 6rem;
+    font-family: var(--roboto-font);
+    padding: 1rem 0rem;
+    letter-spacing: 1.5;
+    margin: 1.5rem 0;
+}
+.header-inner .header-content a{
+    font-size: 1rem;
+    font-family: var(--poppins-font);
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000;
+    letter-spacing: 1.5;
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #fff;
+    margin-right: 2rem;
+    border-radius: 3rem;
+    border: 1px solid #fff;
+    transition: .5s all;
+    letter-spacing: 1.5;
+}
+.header-inner .header-content a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.header-inner .header-content a:last-child{
+    background: transparent;
+    color: #fff;
+}
+.header-inner .header-content a:last-child:hover{
+    background: #fff;
+    color: #000;
+}
+/* header code end  */
