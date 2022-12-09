@@ -343,7 +343,7 @@ header{
     transition: 0.5s all;
     opacity: 0;
  }
- .service-inner .services-box-item .services-box-item-content:hover a{
+ .service-inner .services-box-item:hover .services-box-item-content a{
     bottom: -45px;
     opacity: 1;
  }
@@ -572,3 +572,89 @@ header{
     color: #1D2A4D;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
+
+/* doctor code start  */
+.doctor .doctor-inner{
+    padding-bottom: 5rem;
+    position: relative;
+}
+.doctor-inner .doctor-section-title{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.doctor-inner .doctor-section-title h2{
+    max-width: 32rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+/* doctor link section start  */
+.doctor .doctor-inner .doctor-links .doctor-content{
+    margin-right: 3rem;
+}
+.doctor .doctor-inner .doctor-content .doctor-content-image{
+    flex: 1;
+    /* width: 100%; */
+}
+.doctor .doctor-inner .doctor-content .doctor-content-image img{
+    border-radius: 10px 0px 0px 10px;
+}
+.doctor .doctor-inner .doctor-content .doctor-content-about{
+    flex: 1;
+    /* width: 100%; */
+    background: #EFF5F9;
+    padding: 1.5rem 1.5rem;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+}
+.doctor .doctor-inner .doctor-content .doctor-content-about::after{
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.1);
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 5.6rem;
+}
+.doctor .doctor-inner .doctor-content .doctor-content-about h2{
+    font-size: 1.8rem;
+    margin: 0;
+}
+.doctor .doctor-inner .doctor-content .doctor-content-about h4{
+    font-size: 1rem;
+    font-style: italic;
+    font-family: var(--poppins-font);
+    font-weight: 500;
+    color: #13C5DD;
+    margin: 0;
+}
+.doctor .doctor-inner .doctor-content .doctor-content-about p{
+    word-spacing: 7px;
+    padding-bottom: 1rem;
+    line-height: 2;
+}
+.doctor .doctor-inner .doctor-content .doctor-content-about .doctor-social-links{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-top: 1.8rem;
+}
+.doctor .doctor-inner .doctor-content .doctor-content-about .doctor-social-links a{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background: #13C5DD;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    transition: .5s all;
+}
+.doctor .doctor-inner .doctor-content .doctor-content-about .doctor-social-links a:hover{
+    color: #1D2A4D;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+/* doctor code end  */
