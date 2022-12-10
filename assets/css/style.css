@@ -887,3 +887,183 @@ header{
     color: #13C5DD;
 }
 /* blog-post section code end  */
+/* footer code start  */
+footer{
+    position: relative;
+    margin-top: 5rem;
+    background: #1D2A4D;
+    padding: 5rem 0 0 2rem;
+}
+footer::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #354F8E;
+    left: 0;
+    bottom: 15%;
+}
+footer .footer-inner-content{
+    padding-bottom: 3rem;
+    /* flex-wrap: wrap; */
+}
+/* footer address code start  */
+footer .footer-inner-content .address{
+    flex: 1;
+    padding-right: 1rem;
+}
+footer .footer-inner-content .address h3::after{
+    background-color: #354F8E;
+}
+footer .footer-inner-content .address p{
+    font-size: 16px;
+    color: #EFF5F9;
+    line-height: 1.8;
+    padding: 10px 1rem 10px 0;
+}
+footer .footer-inner-content .address ul li{
+    font-size: 15px;
+    color: #EFF5F9;
+    line-height: 1.8;
+}
+footer .footer-inner-content .address ul li i{
+    color: #13C5DD;
+    margin-right: 15px;
+}
+/* footer quick-links start  */
+footer .footer-inner-content .quick-links{
+    flex: 1;
+    padding-right: 1rem;
+}
+footer .footer-inner-content .quick-links h3::after{
+    background-color: #354F8E;
+}
+footer .footer-inner-content .quick-links ul{
+    margin-top: 23px;
+}
+footer .footer-inner-content .quick-links ul li a{
+    display: inline-block;
+    font-size: 15px;
+    color: #EFF5F9;
+    line-height: 2.3;
+}
+footer .footer-inner-content .quick-links ul li a i{
+    margin-right: 6px;
+}
+/* footer popular-links code start  */
+footer .footer-inner-content .popular-links{
+    flex: 1;
+    padding-right: 1rem;
+}
+footer .footer-inner-content .popular-links h3::after{
+    background-color: #354F8E;
+}
+footer .footer-inner-content .popular-links ul{
+    margin-top: 23px;
+}
+footer .footer-inner-content .popular-links ul li a{
+    display: inline-block;
+    font-size: 15px;
+    color: #EFF5F9;
+    line-height: 2.3;
+}
+footer .footer-inner-content .popular-links ul li a i{
+    margin-right: 6px;
+}
+footer .footer-inner-content .quick-links ul li a:hover,
+footer .footer-inner-content .popular-links ul li a:hover{
+    color: #13C5DD;
+}
+/* footer newsletter code start  */
+footer .footer-inner-content .newsletter{
+    flex: 1;
+    padding-right: 1rem;
+}
+footer .footer-inner-content .newsletter h3::after{
+    background-color: #354F8E;
+}
+footer .footer-inner-content .newsletter .newsletter-email{
+    margin: 1.5rem 0;
+}
+
+footer .footer-inner-content .newsletter .newsletter-email input{
+    flex: 1;
+    border-radius: 10px 0px 0px 10px;
+}
+footer .footer-inner-content .newsletter .newsletter-email input,
+footer .footer-inner-content .newsletter .newsletter-email button{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+footer .footer-inner-content .newsletter .newsletter-email input::placeholder{
+    color: #7c8594;
+}
+footer .footer-inner-content .newsletter .newsletter-email button{
+    flex: 1;
+    color: #fff;
+    background: var(--brand-color);
+    cursor: pointer;
+    transition: 0.5s all;
+    border-radius: 0 10px 10px 0;
+    transition: .5s all;
+}
+footer .footer-inner-content .newsletter .newsletter-email button:hover{
+    background: #354F8E;
+}
+footer .footer-inner-content .newsletter .newsletter-social-links h4{
+    color: #13C5DD;
+}
+footer .footer-inner-content .newsletter .newsletter-social-links ul{
+    margin-top: 1.2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .footer-inner-content .newsletter .newsletter-social-links ul li a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #13C5DD;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s all;
+}
+footer .footer-inner-content .newsletter .newsletter-social-links ul li a:hover{
+    color: #1D2A4D;
+    box-shadow: 0px 4px 6px #1D2A4D;
+}
+/* footer developer-link code  */
+footer .footer-inner .footer-developer-link{
+    align-items: center;
+    justify-content: space-between;
+}
+footer .footer-inner .footer-developer-link .medinova-site p{
+    color: #EFF5F9;
+    font-size: 15px;
+}
+footer .footer-inner .footer-developer-link .medinova-site a{
+    color: #13C5DD;
+    font-size: 15px;
+    margin-right: 5px;
+    transition: .5s all;
+}
+footer .footer-inner .footer-developer-link .author-link p{
+    color: #EFF5F9;
+    font-size: 15px;
+}
+footer .footer-inner .footer-developer-link .author-link a{
+    color: #13C5DD;
+    font-size: 15px;
+    margin-left: 5px;
+    transition: .5s all;
+}
+footer .footer-inner .footer-developer-link .medinova-site a:hover,
+footer .footer-inner .footer-developer-link .author-link a:hover{
+    color: #fff;
+}
+/* footer code end  */
