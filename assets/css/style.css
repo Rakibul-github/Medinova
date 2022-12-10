@@ -810,3 +810,80 @@ header{
     color: #13C5DD;
 }
 /* testimonial section code end  */
+
+/* blog-post section code start  */
+.blog-post-inner .blog-post-title{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.blog-post-inner .blog-post-title h2{
+    max-width: 32rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.blog-post-inner .blog-post-content .blog-post-items{
+    flex: 1;
+    border-radius: 10px 10px 0 0;
+    margin-right: 40px;
+    margin-bottom: 1rem;
+}
+/* blog-post-items-head code  */
+.blog-post-inner .blog-post-content .blog-post-items-head{
+    border-radius: 10px 10px 0 0;
+}
+.blog-post-inner .blog-post-content .blog-post-items-head img{
+    border-radius: 10px 10px 0 0;
+}
+/* blog-post-items-body code  */
+.blog-post-inner .blog-post-content .blog-post-items-body{
+    position: relative;
+    padding: 1rem;
+    padding-bottom: 0;
+    background: #EFF5F9;
+    border-radius: 0 0 10px 10px;
+}
+.blog-post-inner .blog-post-content .blog-post-items-body::after{
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.blog-post-inner .blog-post-content .blog-post-items-body h2{
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+.blog-post-inner .blog-post-content .blog-post-items-body p{
+    line-height: 1.5;
+}
+/* blog-post-items-body-footer code  */
+.blog-post-inner .blog-post-content .blog-post-items-body .blog-post-items-body-footer{
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-post-inner .blog-post-content .blog-post-items-body .blog-post-items-body-footer .footer-img{
+    display: flex;
+    align-items: center;
+}
+.blog-post-inner .blog-post-content .blog-post-items-body .blog-post-items-body-footer .footer-img img{
+    width: 18%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.blog-post-inner .blog-post-content .blog-post-items-body .blog-post-items-body-footer .footer-img p{
+    font-size: 13px;
+}
+.blog-post-inner .blog-post-content .blog-post-items-body .blog-post-items-body-footer .footer-views span{
+    font-size: 13px;
+    color: #848E9F;
+    margin-left: 10px;
+}
+.blog-post-inner .blog-post-content .blog-post-items-body .blog-post-items-body-footer .footer-views span i{
+    color: #13C5DD;
+}
+/* blog-post section code end  */
