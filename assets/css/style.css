@@ -658,3 +658,155 @@ header{
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 /* doctor code end  */
+
+/* doctor-search sectin code start  */
+.doctor-search{
+    background: #13C5DD;
+    margin-bottom: 3rem;
+    padding: 3rem;
+}
+.doctor-search-inner .doctor-search-title{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.doctor-search-inner .doctor-search-title h3{
+    color: #fff;
+}
+.doctor-search-inner .doctor-search-title h2{
+    max-width: 32rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+/* doctor-search-content code start  */
+.doctor-search-inner .doctor-search-content{
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.doctor-search-inner .doctor-search-content p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: var(--roboto-font);
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 35rem;
+    margin-top: 0;
+}
+/* doctor-search-bar code start  */
+.doctor-search-inner .doctor-search-search-bar{
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem auto 3rem auto;
+    max-width: 55%;
+}
+.doctor-search-inner .doctor-search-search-bar select,
+.doctor-search-inner .doctor-search-search-bar input,
+.doctor-search-inner .doctor-search-search-bar button{
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+.doctor-search-inner .doctor-search-search-bar select{
+    flex: 1;
+    margin-right: 1px;
+    color: #7c8594;
+    border-radius: 10px 0 0 10px;
+}
+.doctor-search-inner .doctor-search-search-bar input{
+    flex: 3;
+    height: 100%;
+}
+.doctor-search-inner .doctor-search-search-bar input::placeholder{
+    color: #7c8594;
+}
+.doctor-search-inner .doctor-search-search-bar button{
+    flex: 1;
+    color: #fff;
+    background: #1D2A4D;
+    cursor: pointer;
+    transition: 0.5s all;
+    border-radius: 0 10px 10px 0;
+}
+.doctor-search-inner .doctor-search-search-bar button:hover{
+    box-shadow: 0px 3px 5px #1D2A4D;
+}
+/* doctor-search sectin code end  */
+
+/* testimonial section code start  */
+.testimonial .testimonial-inner .testimonial-title{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.testimonial .testimonial-inner .testimonial-title h2{
+    max-width: 32rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+/* testimonial content code  */
+.testimonial .testimonial-inner .testimonial-content{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 65%;
+    margin: 0 auto 2.5rem auto;
+
+}
+/* testimonnial content-head code  */
+.testimonial .testimonial-inner .testimonial-content-head{
+    position: relative;
+    padding: 1.5rem;
+}
+.testimonial .testimonial-inner .testimonial-content-head img{
+    border-radius: 50%;
+}
+.testimonial .testimonial-inner .testimonial-content-head i{
+    position: absolute;
+    left: 35%;
+    bottom: -4%;
+    font-size: 2.8rem;
+    color: #13C5DD;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* testimonnial content-body code  */
+.testimonial .testimonial-inner .testimonial-content-body p{
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+.testimonial .testimonial-inner .testimonial-content-body p::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.2);
+    left: 35%;
+    bottom: 0;
+}
+/* testimonnial content-footer code  */
+.testimonial .testimonial-inner .testimonial-content-footer{
+    text-align: center;
+}
+.testimonial .testimonial-inner .testimonial-content-footer h2{
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #1D2A4D;
+}
+.testimonial .testimonial-inner .testimonial-content-footer h5{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #13C5DD;
+}
+/* testimonial section code end  */
